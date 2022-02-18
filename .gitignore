@@ -1,0 +1,14 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Node Module
+node_modules/
+
+# Cache
+.parcel-cache/
+
+# Build
+dist/
