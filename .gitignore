@@ -10,6 +10,7 @@ node_modules/
 # Cache
 .parcel-cache/
 .eslintcache
+.stylelintcache
 
 # Build
 dist/
