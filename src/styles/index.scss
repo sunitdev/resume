@@ -1,11 +1,30 @@
 // Fonts
 @import url('http://fonts.cdnfonts.com/css/corbel');
-@import url('http://fonts.cdnfonts.com/css/rockwell-nova');
 @import url('http://fonts.cdnfonts.com/css/roboto');
-@import url('http://fonts.cdnfonts.com/css/carlito');
 
 // Icons
 @import '../../node_modules/remixicon/fonts/remixicon.css';
+
+@font-face {
+  font-family: Carlito;
+  src: url('../assets/fonts/carlito/Carlito-Regular.ttf');
+}
+@font-face {
+  font-family: Carlito;
+  font-weight: bold;
+  src: url('../assets/fonts/carlito/Carlito-Bold.ttf');
+}
+@font-face {
+  font-family: Carlito;
+  font-style: italic;
+  src: url('../assets/fonts/carlito/Carlito-Italic.ttf');
+}
+@font-face {
+  font-family: Carlito;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../assets/fonts/carlito/Carlito-BoldItalic.ttf');
+}
 
 // tailwind css
 @tailwind base;
@@ -15,6 +34,7 @@
 @layer base {
   html {
     font-family: Carlito, sans-serif;
+    font-size: 13px;
   }
 
   @media print {

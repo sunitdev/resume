@@ -8,6 +8,9 @@ module.exports = {
       secondary: '#F2F2F2',
       ...colors,
     },
+    letterSpacing: {
+      widest: '0.3em',
+    },
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
       rockwell: ['Rockwell Nova', 'sans-serif'],
@@ -18,7 +21,7 @@ module.exports = {
         body: '35% auto',
       },
       gridTemplateRows: {
-        aside: '30% auto',
+        aside: '25% auto',
       },
     },
   },
