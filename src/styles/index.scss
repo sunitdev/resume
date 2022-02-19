@@ -1,3 +1,25 @@
+// Fonts
+@import url('http://fonts.cdnfonts.com/css/corbel');
+@import url('http://fonts.cdnfonts.com/css/rockwell-nova');
+@import url('http://fonts.cdnfonts.com/css/roboto');
+@import url('http://fonts.cdnfonts.com/css/carlito');
+
+// Icons
+@import '../../node_modules/remixicon/fonts/remixicon.css';
+
+// tailwind css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Carlito, sans-serif;
+  }
+
+  @media print {
+    html {
+      -webkit-print-color-adjust: exact;
+    }
+  }
+}

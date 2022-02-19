@@ -11,10 +11,74 @@
     <link rel="stylesheet" href="styles/index.scss" />
   </head>
   <body
-    class="m-auto h-[11.7in] w-[8.3in] border border-solid border-black print:m-0 print:border-none"
+    class="m-auto grid h-[11.7in] w-[8.3in] grid-cols-body border border-solid border-black print:m-0 print:border-none"
   >
-    <aside>
-      <h1>Aside</h1>
+    <aside class="grid grid-rows-aside">
+      <section
+        class="flex flex-col bg-primary pt-7 pl-8 font-corbel text-white"
+      >
+        <!-- Name And Designation   -->
+        <h1 class="font-rockwell text-xl">Sunit Deshpande</h1>
+        <strong class="font-extrabold">Full Stack Developer</strong>
+        <span>Amazon, Luxembourg</span>
+        <hr class="mt-1 mb-2" />
+
+        <!--  Contact Info   -->
+        <div class="flex flex-row">
+          <span class="mr-1"><i class="ri-map-pin-user-line"></i></span>
+          <span>Luxembourg, Europe</span>
+        </div>
+
+        <div class="flex flex-row">
+          <span class="mr-1">
+            <i class="ri-mail-line"></i>
+          </span>
+          <a href="mailto:sunitdeshpande1234@gmail.com"
+            >sunitdeshpande1234@gmail.com</a
+          >
+        </div>
+
+        <div class="flex flex-row">
+          <span class="mr-1">
+            <i class="ri-link-m"></i>
+          </span>
+          <a href="https://sunitdev.github.io" target="_blank"
+            >sunitdev.github.io</a
+          >
+        </div>
+
+        <div class="flex flex-row">
+          <span class="mr-1">
+            <i class="ri-linkedin-box-line"></i>
+          </span>
+          <a href="https://www.linkedin.com/in/sunitdeshpande/" target="_blank"
+            >linkedin.com/in/sunitdeshpande/</a
+          >
+        </div>
+
+        <div class="flex flex-row">
+          <span class="mr-1">
+            <i class="ri-github-fill"></i>
+          </span>
+          <a href="https://github.com/sunitdev" target="_blank"
+            >github.com/sunitdev</a
+          >
+        </div>
+
+        <div class="grid grid-cols-[20px_auto]">
+          <div>
+            <span class="mr-1">
+              <i class="ri-phone-line"></i>
+            </span>
+          </div>
+          <div class="flex flex-col">
+            <a href="https://github.com/sunitdev">(+352)-691626646</a>
+            <span class="ml-10">OR</span>
+            <a href="">(+91)-9960623014</a>
+          </div>
+        </div>
+      </section>
+      <section class="bg-secondary">Skills</section>
     </aside>
     <main>
       <h1>Main Header</h1>
