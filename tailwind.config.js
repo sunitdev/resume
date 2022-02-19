@@ -6,6 +6,7 @@ module.exports = {
     colors: {
       primary: '#1D3251',
       secondary: '#F2F2F2',
+      txtSecondary: '#666666',
       ...colors,
     },
     letterSpacing: {

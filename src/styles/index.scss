@@ -43,3 +43,9 @@
     }
   }
 }
+
+@layer components {
+  .heading {
+    @apply text-center font-roboto text-2xl uppercase tracking-widest text-primary;
+  }
+}
