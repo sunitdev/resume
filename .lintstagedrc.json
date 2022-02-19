@@ -1,5 +1,10 @@
 {
   "*.md": ["cspell"],
-  "*.{pug}": ["cspell", "eslint --cache --fix", "prettier --write"],
+  "*.{html}": [
+    "cspell",
+    "eslint --cache --fix",
+    "stylelint --cache --fix",
+    "prettier --write"
+  ],
   "*.{scss}": ["cspell", "stylelint --cache --fix", "prettier --write"]
 }
