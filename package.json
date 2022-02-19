@@ -2,10 +2,11 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.pug",
+  "source": "src/index.html",
   "scripts": {
-    "serve": "parcel",
-    "build": "parcel build",
+    "clean:output": "rm -rf dist/",
+    "serve": "npm run clean:output && parcel",
+    "build": "npm run clean:output && parcel build",
     "setup": "husky install"
   },
   "repository": {
@@ -19,14 +20,11 @@
   },
   "homepage": "https://github.com/sunitdev/resume#readme",
   "devDependencies": {
-    "@parcel/transformer-pug": "^2.3.1",
     "@parcel/transformer-sass": "^2.3.1",
-    "@prettier/plugin-pug": "^1.19.2",
     "autoprefixer": "^10.4.2",
     "cspell": "^5.18.5",
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-pug": "^1.2.4",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
     "parcel": "^2.3.1",
