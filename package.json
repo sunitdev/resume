@@ -6,7 +6,7 @@
   "scripts": {
     "clean:output": "rm -rf dist/",
     "serve": "npm run clean:output && parcel",
-    "build": "npm run clean:output && parcel build",
+    "build": "npm run clean:output && parcel build --public-url=resume",
     "setup": "husky install"
   },
   "repository": {
