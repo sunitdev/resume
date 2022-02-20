@@ -19,10 +19,10 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        body: '35% auto',
+        body: '33% auto',
       },
       gridTemplateRows: {
-        aside: '25% auto',
+        aside: '23% auto',
       },
     },
   },
