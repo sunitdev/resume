@@ -22,7 +22,7 @@ module.exports = {
         body: '33% auto',
       },
       gridTemplateRows: {
-        aside: '23% auto',
+        aside: '20% auto',
       },
     },
   },
