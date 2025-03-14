@@ -9,16 +9,19 @@
   font-family: Carlito;
   src: url('../assets/fonts/carlito/Carlito-Regular.ttf');
 }
+
 @font-face {
   font-family: Carlito;
   font-weight: bold;
   src: url('../assets/fonts/carlito/Carlito-Bold.ttf');
 }
+
 @font-face {
   font-family: Carlito;
   font-style: italic;
   src: url('../assets/fonts/carlito/Carlito-Italic.ttf');
 }
+
 @font-face {
   font-family: Carlito;
   font-style: italic;
@@ -49,3 +52,4 @@
     @apply text-center font-roboto text-2xl uppercase tracking-widest text-primary;
   }
 }
+
